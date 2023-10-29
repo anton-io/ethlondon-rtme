@@ -1,0 +1,2 @@
+# Make sure docker ignores src when building its image context.
+src/

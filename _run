@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+# Run scaffold-eth-2 inside a docker container and expose important ports for the RTME project.
+
+docker build -t rtme .
+docker run -ti --rm --name rtme -p 3000:3000 -p 8545:8545 -v `pwd`/src:/root/rtme rtme /bin/bash
