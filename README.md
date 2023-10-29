@@ -59,9 +59,9 @@ RTME's architecture comprises a number of subsystems including:
 
 This system employs a wide range of technologies including: 
 
-* [scaffold-eth-2](https://github.com/scaffold-eth/scaffold-eth-2).
+* [scaffold-eth-2](https://github.com/scaffold-eth/scaffold-eth-2) to quickly prototype and test the smart contract used in this project.
 * [Google Web3 end-points](https://cloud.google.com/web3) to subscribe to logs and update streamed times.
-* [Google's Cloud AI for Text-To-Speech](https://cloud.google.com/text-to-speech).
+* [Google's Cloud AI for Text-To-Speech](https://cloud.google.com/text-to-speech) to convert the text used on smart contract to a speech on the live stream.
 
 
 ## Future extensions
