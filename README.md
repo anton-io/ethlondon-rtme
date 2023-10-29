@@ -14,6 +14,8 @@ Looking ahead, the mechanisms developed in RTME lay the groundwork for a plethor
 
 The system is live on https://rtme.com, where there is a test music stream running on short loop so that the user broadcasts can be played/demoed faster. 
 
+![Smart Contract](docs/rtme_com.png)
+
 To issue a notification, use the smart contract available on teh **Sepolia** testnet:
 
 * [RTME Smart Contract](https://sepolia.etherscan.io/address/0x15C51C2AF7b6Da77f2CF0a0fa46D1f7869B8bf39#writeContract)
@@ -26,7 +28,7 @@ On this contract, anyone can issue a broadcast message using the __broadcast__ f
 After submitting a message to be broadcast, the backend picks up the broadcastRequest log message, and processes to use AI to perform Text-To-Speech (using Google's TTS). This is then scheduled on the live stream. 
 
 
-![Smart Contract](docs/smart_contract.png)
+![Smart Contract](docs/rtme_smart_contract.png)
 
 It can take as low as ~10s to get a message out from smart contract to live stream. Sometimes it may take a bit longer since the current song/stream needs to complete before a new one is streamed.    
 
